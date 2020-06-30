@@ -1,0 +1,41 @@
+.main {
+    width:650px;
+    height:500px;
+    border:1px solid black;
+    margin:auto;
+    background:#F3F3F3;
+    box-shadow:1px 1px 1px 1px grey;
+}
+
+#row {
+    width:99%;
+    height:45px;
+    color:black;
+    border:2px solid #F3F3F3;
+}
+
+.col {
+    width:32%;
+    height:89%;
+    border:1px solid #F3F3F3;
+    float:left;
+    margin-left:2px;
+}
+
+input {
+    height:34px;
+    width:200px;
+    border-radius:2px;
+}
+
+input:hover{
+    border:1px solid red
+}
+
+input:hover{
+    background:rgb(226, 215, 215);
+}
+
+input{
+    font-size:25px;
+}

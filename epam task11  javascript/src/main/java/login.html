@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>Login</h2>
+            <form id="form_id" method="post">
+
+                <label>UserName :</label>
+                <input type="text" name="username" id="username"/>
+
+                <label>Password :</label>
+                <input type="password" name="password" id="password"/>
+
+                <input type="button" value="Login" id="submit" onclick="checkUserIdPassword()"/>
+            </form>
+            <span><b class="note" style="color: red;">Note : </b>For this demo use following. <br/><b class="valid" style="color: green;">User Name : Admin<br/>Password : Admin123</b></span>
+        </div>
+    </div>
+</body>
+
+<script src="login.js"></script>
+
+</html>
